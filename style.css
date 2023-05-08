@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+@media (max-width : 992px) {
+     body {
+        display: block;
+     }
+     nav {
+        height: 200px;
+        border-bottom: 1px solid rgba(0,0,0,0.7);
+     }
+}
+@media (min-width : 993px){
+    nav {
+        height: 100vh;
+    }
+}
+nav {
+    overflow: auto;
+    overflow-x: hidden;
+}
+.h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px 5px;
+}
+a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    padding: 1rem 1rem;
+}
+.read {
+    padding: 1rem 2rem 5rem 2rem;
+}
+h1 {
+    font-weight: normal;
+    font-size: 30px;
+}
+li {
+    padding: 8px 0px;
+}
+.para {
+    font-size: 16px;
+    color: black;
+    opacity: 70%;
+    line-height: 1.5rem;
+}
+.ex {
+    margin: 10px 0;
+    color: black;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: lightgrey;
+    opacity: 80%;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+#ref .para a {
+    color: blue;
+    opacity: 1;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+#ref .para a:visited {
+   color: purple;
+   text-decoration:underline;
+}
+#ref .para a:active {
+    color: red;
+    text-decoration:underline;
+}
